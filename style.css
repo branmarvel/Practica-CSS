@@ -1,0 +1,97 @@
+/*imagenes */
+.responsive{
+  width: 100%;
+  height: auto;
+  border: 0px;
+  margin: 0px;
+}
+/* fuentes*/ 
+* {
+  font-family: sans-serif;
+
+}
+
+h1, p, li, h3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+p,li{
+  color:   gray;
+}
+/*navbar*/
+.topnav {
+padding-left: 50px;
+margin-bottom: 10px;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  color: Black;
+}
+
+/*columnas*/
+
+.column {
+  float: left;
+  width: 29%;
+  border: 1px solid  #dcdcdc;
+  margin:2%;
+  display: block;
+  justify-content: center;
+ 
+}
+
+
+/*quita el float despues de las columnas*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+.colum-img{
+  margin: 0px;
+
+}
+/*responsive css*/
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/*button*/
+button{
+  background-color: #007bff;
+  border: 0px;
+  padding: 7px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+a{
+  color: white;
+  
+  text-decoration: none;
+   
+}
+
+.footer{
+  border: 1px solid #b8daff ;
+  background-color: #d0e4fc;
+  margin-left: 3%;
+  margin-right: 2%;
+  color: #0c549e;
+}
